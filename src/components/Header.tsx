@@ -5,7 +5,7 @@ import styles from '@/styles/Header.module.scss'
 const Header = () => {
   return (
     <header className={styles.header}>
-      <span>My Logo</span>
+      <span>Teacher&#39;s Aide.ai</span>
     </header>
   )
 }

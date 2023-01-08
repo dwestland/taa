@@ -6,7 +6,7 @@ const HomePage = () => (
   <Layout title="Document" description="Document description">
     <main>
       <section>
-        <h1>Welcome to App</h1>
+        <h1>Identify AI Generated Homework</h1>
         <h3>Section</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla

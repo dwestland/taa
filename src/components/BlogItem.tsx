@@ -4,7 +4,6 @@ import toast, { Toaster } from 'react-hot-toast'
 import Link from 'next/link'
 import { FaTrashAlt, FaPencilAlt } from 'react-icons/fa'
 import Tooltip from 'rc-tooltip'
-import ShowMoreText from 'react-show-more-text'
 import styles from '@/styles/BlogItem.module.scss'
 import 'rc-tooltip/assets/bootstrap.css'
 import Modal from '@/components/Modal'
@@ -133,15 +132,7 @@ const BlogItem: FC<Blog> = ({ blog }): JSX.Element => {
         </Link>
       </div>
       <div className={styles.body}>
-        <ShowMoreText
-          lines={3}
-          more="show more"
-          less="show less"
-          anchorClass={styles.anchorClass}
-          truncatedEndingComponent="... "
-        >
-          <p>{body}</p>
-        </ShowMoreText>
+        <p>{body}</p>
       </div>
       {showDeleteModal && (
         <Modal
