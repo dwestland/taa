@@ -36,8 +36,6 @@ export default NextAuth({
     async session({ session, user }) {
       ;(session as any).userId = user.id
       return session
-      // const modifiedSession = { ...session, userId: user.id }
-      // return modifiedSession
     },
   },
 })

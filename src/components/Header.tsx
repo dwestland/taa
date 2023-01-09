@@ -5,7 +5,8 @@ import styles from '@/styles/Header.module.scss'
 const Header = () => {
   return (
     <header className={styles.header}>
-      <span>Teacher&#39;s Aide.ai</span>
+      {/* <span>Teacher&#39;s Aide.ai</span> */}
+      <span>Teachers Aide.ai</span>
     </header>
   )
 }
