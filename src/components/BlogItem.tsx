@@ -101,9 +101,9 @@ const BlogItem: FC<Blog> = ({ blog }): JSX.Element => {
               className={styles.iconButton}
               onClick={openEditModal}
             >
-              <a className={styles.icon}>
+              <span className={styles.icon}>
                 <FaPencilAlt />
-              </a>
+              </span>
             </button>
           </Tooltip>
           &nbsp;&nbsp;
@@ -117,9 +117,9 @@ const BlogItem: FC<Blog> = ({ blog }): JSX.Element => {
               className={styles.iconButton}
               onClick={openDeleteModal}
             >
-              <a className={styles.icon}>
+              <span className={styles.icon}>
                 <FaTrashAlt />
-              </a>
+              </span>
             </button>
           </Tooltip>
           &nbsp;&nbsp;
@@ -128,7 +128,7 @@ const BlogItem: FC<Blog> = ({ blog }): JSX.Element => {
       <div className={`${styles.row} ${styles.small}`}>
         <span>By {bestName}</span>
         <Link href={`/blog/${id}`}>
-          <a>Blog detail</a>
+          <span>Blog detail</span>
         </Link>
       </div>
       <div className={styles.body}>
