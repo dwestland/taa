@@ -17,6 +17,9 @@ export default function Navbar() {
         <li className={styles.li}>
           <Link href="/blogs">Blogs</Link>
         </li>
+        <li className={styles.li}>
+          <Link href="/products">Products</Link>
+        </li>
       </ul>
     </nav>
   )
