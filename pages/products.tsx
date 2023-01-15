@@ -6,10 +6,10 @@ const ProductPage = () => (
   <Layout title="Document" description="Document description">
     <main>
       <section>
-        <h1>Buy Tokens</h1>
+        <h1>Products</h1>
         <h3>Section</h3>
-        <div>
-          <div
+
+        {/* <div
             style={{
               border: '1px solid dodgerblue',
               padding: '10px',
@@ -31,11 +31,8 @@ const ProductPage = () => (
             >
               BUY TOKENS
             </button>
-          </div>
-          <div>
-            <p>Big Plan - 100,000 Funny Tokens</p>
-          </div>
-        </div>
+          </div> */}
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           obcaecati quam commodi perspiciatis aut sequi, corporis numquam
